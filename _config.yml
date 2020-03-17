@@ -1,0 +1,13 @@
+name: Juan Camilo
+email: email
+twitter: twitter
+github: github
+description: >
+  Physical oceanographer studying ocean surface waves and air-sea interactions
+
+markdown: kramdown
+baseurl: ""
+highlightjs_theme: "zenburn"
+
+plugins:
+  - jekyll-paginate
