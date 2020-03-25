@@ -93,23 +93,32 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(65,90,110,0.9) 0%, rgba(65,90,110,0.5) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
+  color: white;
   font-size: 4rem;
+  text-shadow: 0 3px 1px rgba(0,0,0,0.67) !important;
   margin: 0;
   padding: 0;
+  font-weight: 600;
+}
+.masthead h3 {
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 0 3px 1px rgba(0,0,0,0.67) !important;
+  font-weight: 200;
 }
 
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
   }
-  .masthead h1 {
+  .masthead h51 {
     font-size: 5.5rem;
   }
 }
@@ -322,7 +331,7 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
+  background-color: rgb(0, 75, 135) !important;
   border-color: #1D809F !important;
   color: #fff !important;
 }
@@ -353,7 +362,8 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  /*background-color: #1D809F !important;*/
+  background-color: rgb(0, 75, 135) !important;
 }
 
 .text-primary {
