@@ -93,7 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(to bottom, rgba(65,90,110,0.9) 0%, rgba(65,90,110,0.5) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(65,90,110,0.9) 0%, rgba(65,90,110,0.5) 40%), url("http://source.unsplash.com/PhYq704ffdA");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ h6 {
 
 .masthead h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 0 3px 1px rgba(0,0,0,0.67) !important;
   margin: 0;
   padding: 0;
@@ -109,7 +109,7 @@ h6 {
 }
 .masthead h3 {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-shadow: 0 3px 1px rgba(0,0,0,0.67) !important;
   font-weight: 200;
 }
@@ -132,7 +132,7 @@ h6 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgb(0, 75, 135);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -222,7 +222,7 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(to bottom, rgba(65,90,110,0.9) 0%, rgba(65,90,110,0.5) 50%), url("http://source.unsplash.com/jU9VAZDGMzs");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -312,33 +312,33 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: rgb(0, 75, 135);
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: rgb(0, 75, 135);
   text-decoration: none;
 }
 
 a {
-  color: #1D809F;
+  color: rgb(0, 75, 135);
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: rgb(0, 75, 135);
 }
 
 .btn-primary {
   background-color: rgb(0, 75, 135) !important;
-  border-color: #1D809F !important;
+  border-color: rgb(0, 75, 135) !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: rgb(0, 75, 135) !important;
+  border-color: rgb(0, 75, 135) !important;
 }
 
 .btn-secondary {
