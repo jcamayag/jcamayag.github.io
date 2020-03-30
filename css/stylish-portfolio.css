@@ -211,7 +211,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: rgb(0, 75, 135);
   height: 7rem;
   width: 7rem;
   display: block;
@@ -295,7 +295,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(0, 75, 135, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
