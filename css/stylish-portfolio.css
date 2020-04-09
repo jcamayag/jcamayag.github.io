@@ -425,3 +425,14 @@ header .overlay {
   }
 }
 
+.quote {
+  font-size: 20px; 
+}
+
+.quote .fas {
+  font-size: 35px; 
+  padding-bottom: 0.6em;
+}
+
+
+
