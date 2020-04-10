@@ -102,7 +102,7 @@ h6 {
 .masthead h1 {
   color: white;
   font-size: 3rem;
-  text-shadow: 0 3px 1px rgba(0,0,0,0.67) ;
+  text-shadow: 0 3px 1px rgba(0,0,0,0.67) !important;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -110,7 +110,7 @@ h6 {
 .masthead h3 {
   color: white;
   font-size: 1.3rem;
-  text-shadow: 0 3px 1px rgba(0,0,0,0.67) ;
+  text-shadow: 0 3px 1px rgba(0,0,0,0.67) !important;
   font-weight: 200;
 }
 
